@@ -1,6 +1,7 @@
 package com.iesemilidarder.base;
 
 import com.iesemilidarder.base.data.Moto;
+import com.iesemilidarder.base.data.Vehicle;
 
 public class Launcher {
     public static void main(String... args) {
@@ -9,5 +10,6 @@ public class Launcher {
         moto.start();
         System.out.println("pista que voy!");
         moto.brake();
+        Vehicle aux = new Moto ();
     }
 }
