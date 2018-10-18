@@ -5,9 +5,18 @@ import com.iesemilidarder.base.AppConstants;
 import com.iesemilidarder.base.exception.IESMyException;
 
 public abstract class Vehicle {
+    private String name;
     private String color;
     private Integer numWheels;
     private Double price;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
     public String getColor() {
         return color;
